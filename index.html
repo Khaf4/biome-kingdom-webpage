@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<link rel="shortcut icon" href="media/logo-notext.svg">
+	<link rel="stylesheet" href="css/myReset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Biome Kingdom</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__content">
+				<div class="header__logo">
+					<img src="media/logo.svg" alt="logo">
+				</div>
+				<nav class="header__menu menu">
+					<ul class="menu__left-side-items">
+						<li class="menu__item"><a href="#home">Home</a></li>
+						<li class="menu__item"><a href="#about-us">About us</a></li>
+					</ul>
+					<ul class="menu__right-side-items">
+						<li class="menu__item"><a href="#ticket">Tickets</a></li>
+						<li class="menu__item"><a href="#author">Author</a></li>
+					</ul>
+				</nav>
+				<button class="header__burger-menu burger-menu">
+					<img src="media/burger-menu.svg" width="18px" height="14px" alt="burger-menu">
+				</button>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="home" id="home">
+				<div class="home__main-text main-text">
+					<p class="main-text__welcome">Добро<br>пожаловать<br>в</p>
+					<h1><span class="main-text__company-name">Biome Kingdom</span><br><span class="main-text__copyright">©2023</span></h1>
+				</div>
+				<div class="home__learn-more-pointer">
+					<p>Узнай больше о нас</p>
+					<img src="media/arrow-scroll.svg" alt="arrow-scroll">
+				</div>
+				<video class="home__bg-video" pip="false" autoplay loop muted preload="auto">
+					<source src="media/bg-video-mp4.mp4" type="video/mp4">
+				</video>
+			</section>
+			<section class="section about-us" id="about-us">
+				<div class="section-wrap-container">
+					<div class="section__header">
+						<div class="section__divider">
+							<div class="section__mini-logo"><img src="media/logo-section-divider.svg" alt="logo-mini"></div>
+						</div>
+						<h2 class="section__name">About us</h2>
+					</div>
+					<div class="about-us__content-block">
+						<div class="about-us__card card-1">
+							<div class="card-1__container">
+								<p class="card-1__text">В <span class="green">Biome Kingdom</span> мы верим в создание <span class="purple">безопасной</span> и <span class="purple">комфортной</span> среды для наших животных, и мы очень гордимся тем, что <span class="purple">заботимся</span> и <span class="purple">сохраняем</span> каждый вид, для которого наши зоопарки являются домом.</p>
+								<img class="card-1__picture" src="media/animal-card-1.png" alt="animal-card-1">
+							</div>
+						</div>
+						<div class="about-us__card card-2">
+							<div class="card-2__container">
+								<p class="card-2__text"><span class="green">Biome Kingdom</span> <br>- ведущая <span class="purple">сеть зоопарков</span>, призванная <span class="purple">дарить</span> любителям животных по всему миру <span class="purple">незабываемые впечатления</span>.</p>
+								<img class="card-2__picture" src="media/animal-card-2.png" alt="animal-card-2">
+							</div>
+						</div>
+						<div class="about-us__card card-3">
+							<div class="card-3__container">
+								<p class="card-3__text">В наших зоопарках содержатся <span class="purple">уникальные</span> и находящиеся под угрозой исчезновения <span class="purple">виды</span>, такие как <span class="purple">панголин</span>, <span class="purple">амурский тигр</span> и <span class="purple">окапи</span>, которые редко встречаются в других зоопарках мира.</p>
+								<img class="card-3__picture" src="media/animal-card-3.png" alt="animal-card-3">
+							</div>
+						</div>
+						<div class="about-us__card card-4">
+							<div class="card-4__container">
+								<p class="card-4__text">Мы обеспечиваем нашим животным <span class="purple">высочайший уровень заботы и внимания</span> , гарантируя, что они будут <span class="purple">счастливы и здоровы в своей среде обитания</span>!</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section ticket" id="ticket">
+				<div class="section-wrap-container">
+					<div class="section__header">
+						<div class="section__divider">
+							<div class="section__mini-logo"><img src="media/logo-section-divider.svg" alt="logo-mini"></div>
+						</div>
+						<h2 class="section__name">Order a ticket</h2>
+					</div>
+					<div class="ticket__content-block">
+						<div class="ticket__start-text">
+							<p>Мы приглашаем вас посетить наши зоопарки и воочию познакомиться с <span class="green">чудесами животного мира</span>!<br><br>Билеты можно приобрести, <span class="purple">указав свои контактные данные</span> ниже.</p>
+						</div>
+						<div class="ticket__form">
+							<div class="ticket__input-container ticket__input-name">
+								<input type="text" placeholder="Name">
+								<button class="ticket__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
+							</div>
+							<div class="ticket__input-container ticket__input-phone">
+								<input type="text" placeholder="Phone number">
+								<button class="ticket__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
+							</div>
+							<div class="ticket__input-container ticket__input-email">
+								<input type="text" placeholder="Email (*)">
+								<button class="ticket__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
+							</div>
+							<div class="ticket__input-container ticket__input-promo">
+								<input type="text" placeholder="Promo code (*)">
+								<button class="ticket__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
+							</div>
+						</div>
+						<button class="ticket__submit-btn" type="submit">Send</button>
+						<div class="ticket__final-text">
+							<p>Благодарим вас за выбор <span class="green">Biome Kingdom</span> и с нетерпением <span class="purple">ждём встречи с вами</span> в ближайшее время!</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="section author" id="author">
+				<div class="section-wrap-container">
+					<div class="section__header">
+						<div class="section__divider">
+							<div class="section__mini-logo"><img src="media/logo-section-divider.svg" alt="logo-mini"></div>
+						</div>
+						<h2 class="section__name">Author</h2>
+					</div>
+				</div>
+				<div class="author__content-block">
+					<div class="author__about">
+						<div class="author__image">
+							<img src="media/author-img.png" alt="author">
+						</div>
+						<ul class="author__biographical-notes" >
+							<li><p><span class="purple">Name:</span> Гуров Артём Олегович</p></li>
+							<li>
+								<p><span class="purple">Age:</span> 18 лет</p>
+							</li>
+							<li>
+								<p><span class="purple">City:</span> Воронеж</p>
+							</li>
+							<li>
+								<p><span class="purple">Phone:</span> +7 915 359-59-56</p>
+							</li>
+							<li>
+								<p><span class="purple">Email:</span> artem.gurov12@mail.ru</p>
+							</li>
+							<li>
+								<p><span class="purple">Current education:<br></span>
+								Воронежский государственный университет;<br>
+								Факультет: Факультет компьютерных наук;<br>
+								Специальность: Информационная безопасность</p>
+							</li>
+							<li>
+								<p><span class="purple">Hobby:</span> Фриланс (разработка дизайна веб-сайтов, вёрстка,
+								создание логотипов, обработка фото)</p>
+							</li>
+						</ul>
+					</div>
+					<div class="author__contact-form">
+						<h1>Contact me:</h1>
+						<div class="author__input-container">
+							<input type="text" placeholder="Your email">
+							<button class="author__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
+						</div>
+						<textarea name="Message" placeholder="Your message"></textarea>
+						<button class="author__submit-btn" type="submit">Send message</button>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="footer__content">
+				<div class="footer__rights footer__item">
+					<p class="footer__text">©2023 Biome Kingdom Inc.<br>All rights reserved</p>
+				</div>
+				<div class="footer__item footer__nav">
+					<ul class="footer__links">
+						<li class="footer__link"><a href="#home">Home</a></li>
+						<li class="footer__link"><a href="#about-us">About us</a></li>
+						<li class="footer__link"><a href="#ticket">Tickets</a></li>
+						<li class="footer__link"><a href="#author">Author</a></li>
+					</ul>
+				</div> 
+				<div class="footer__item footer__github-link">
+					<div class="footer__github-icon">
+						<a href="https://github.com/Khaf4" target="_blank"><img src="media/github-icon.svg" alt="github-icon"></a>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>
