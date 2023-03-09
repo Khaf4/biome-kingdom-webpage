@@ -1,0 +1,58 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+aside, nav, footer, header, section, main {
+	display: block;
+}
+html,body{
+	font-size: 100%;
+	line-height: 1;
+	font-size: 16px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+ul, ul li {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+}
+a, a:link, a:visited  {
+    color: inherit;
+    text-decoration: none;
+}
+a:hover  {
+    text-decoration: none;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+input, textarea, button, select {
+	font-family: inherit;
+}
+input::-ms-clear {
+	display: none;
+}
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+button {
+	background: none;
+	border: none;
+}
+button, input[type="submit"] {
+    cursor: pointer;
+}
+button::-moz-focus-inner {padding:0;border:0;}
