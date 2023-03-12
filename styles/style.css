@@ -551,8 +551,7 @@ html {
 	color: #e6e6e6;
 	text-transform: uppercase;
 }
-.author__submit-btn:hover,
-.author__submit-btn:focus {
+.author__submit-btn:hover {
 	color: #646464;
 	border: 2px solid #9c4bff;
 }
