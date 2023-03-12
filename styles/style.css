@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;600;700;800&display=swap');
 
+a[href^="mailto:"] {
+	text-decoration: underline;
+}
 html {
 	scroll-behavior: smooth;
 }
@@ -163,6 +166,14 @@ html {
 	align-items: center;
 	justify-content: center;
 	position: relative;
+}
+.menu__item a {
+	display: inline-flex;
+	height: 100%;
+	text-align: center;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 .menu__item::after {
 	content: "";
@@ -419,7 +430,8 @@ html {
 	color: #e6e6e6;
 	text-transform: uppercase;
 }
-.ticket__submit-btn:hover {
+.ticket__submit-btn:hover,
+.ticket__submit-btn:focus {
 	color: #646464;
 	border: 2px solid #9c4bff;
 }
@@ -431,7 +443,8 @@ html {
 	border-radius: 2px;
 	background-color: transparent;
 }
-.ticket__input-container:hover {
+.ticket__input-container:hover,
+.ticket__input-container:focus {
 	outline: 1px solid #9c4bff;
 }
 .ticket__clean-btn {
@@ -501,7 +514,8 @@ html {
 	border-radius: 2px;
 	background-color: transparent;
 }
-.author__input-container:hover {
+.author__input-container:hover,
+.author__input-container:focus {
 	outline: 1px solid #9c4bff;
 }
 .author__clean-btn {
@@ -523,6 +537,10 @@ html {
 	font-weight: 500;
 	height: 250px;
 }
+.author__contact-form textarea:hover,
+.author__contact-form textarea:focus {
+	outline: 1px solid #9c4bff;
+}
 .author__contact-form textarea::-webkit-scrollbar-track {
 	margin-top: 0;
 }
@@ -534,7 +552,8 @@ html {
 	color: #e6e6e6;
 	text-transform: uppercase;
 }
-.author__submit-btn:hover {
+.author__submit-btn:hover,
+.author__submit-btn:focus {
 	color: #646464;
 	border: 2px solid #9c4bff;
 }

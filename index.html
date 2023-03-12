@@ -97,25 +97,27 @@
 						<div class="ticket__start-text">
 							<p>Мы приглашаем вас посетить наши зоопарки и воочию познакомиться с <span class="green">чудесами животного мира</span>!<br><br>Билеты можно приобрести, <span class="purple">указав свои контактные данные</span> ниже.</p>
 						</div>
-						<div class="ticket__form">
-							<div class="ticket__input-container ticket__input-name">
-								<input type="text" placeholder="Name">
-								<button class="ticket__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
+						<form action="#" method="post" >
+							<div class="ticket__form">
+								<div class="ticket__input-container ticket__input-name">
+									<input type="text" placeholder="Name">
+									<button class="ticket__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
+								</div>
+								<div class="ticket__input-container ticket__input-phone">
+									<input type="text" placeholder="Phone number">
+									<button class="ticket__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
+								</div>
+								<div class="ticket__input-container ticket__input-email">
+									<input type="text" placeholder="Email (*)">
+									<button class="ticket__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
+								</div>
+								<div class="ticket__input-container ticket__input-promo">
+									<input type="text" placeholder="Promo code (*)">
+									<button class="ticket__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
+								</div>
 							</div>
-							<div class="ticket__input-container ticket__input-phone">
-								<input type="text" placeholder="Phone number">
-								<button class="ticket__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
-							</div>
-							<div class="ticket__input-container ticket__input-email">
-								<input type="text" placeholder="Email (*)">
-								<button class="ticket__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
-							</div>
-							<div class="ticket__input-container ticket__input-promo">
-								<input type="text" placeholder="Promo code (*)">
-								<button class="ticket__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
-							</div>
-						</div>
-						<button class="ticket__submit-btn" type="submit">Send</button>
+							<button class="ticket__submit-btn" type="reset">Send</button>
+						</form>
 						<div class="ticket__final-text">
 							<p>Благодарим вас за выбор <span class="green">Biome Kingdom</span> и с нетерпением <span class="purple">ждём встречи с вами</span> в ближайшее время!</p>
 						</div>
@@ -148,7 +150,7 @@
 								<p><span class="purple">Phone:</span> +7 915 359-59-56</p>
 							</li>
 							<li>
-								<p><span class="purple">Email:</span> artem.gurov12@mail.ru</p>
+								<p><span class="purple">Email:</span> <a href="mailto:artem.gurov12@mail.ru">artem.gurov12@mail.ru</a></p>
 							</li>
 							<li>
 								<p><span class="purple">Current education:<br></span>
@@ -162,15 +164,15 @@
 							</li>
 						</ul>
 					</div>
-					<div class="author__contact-form">
+					<form class="author__contact-form" action="mailto:artem.gurov12@mail.ru">
 						<h1>Contact me:</h1>
 						<div class="author__input-container">
 							<input type="text" placeholder="Your email">
 							<button class="author__clean-btn"><img src="media/clean-field.svg" alt="clean-btn"></button>
 						</div>
-						<textarea name="Message" placeholder="Your message"></textarea>
-						<button class="author__submit-btn" type="submit">Send message</button>
-					</div>
+						<textarea name="body" placeholder="Your message"></textarea>
+						<button class="author__submit-btn" type="reset">Send message</button>
+					</form>
 				</div>
 			</section>
 		</main>
